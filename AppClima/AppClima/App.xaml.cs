@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace AppClima
 {
@@ -13,7 +8,7 @@ namespace AppClima
         {
             InitializeComponent();
 
-            MainPage = new AppClima.MainPage();
+            MainPage = new AppClima.Paginas.PaginaClima();
         }
 
         protected override void OnStart()
